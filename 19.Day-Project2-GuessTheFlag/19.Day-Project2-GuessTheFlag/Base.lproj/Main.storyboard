@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="_9_Day_Project2_GuessTheFlag" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="b8L-aU-Sv4">
+                                <rect key="frame" x="107" y="360" width="200" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="us"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="WdJ-ay-WkV">
+                                <rect key="frame" x="107" y="230" width="200" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="us"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="maH-z4-bjF">
+                                <rect key="frame" x="107" y="100" width="200" height="100"/>
+                                <state key="normal" image="us"/>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="WdJ-ay-WkV" firstAttribute="top" secondItem="maH-z4-bjF" secondAttribute="bottom" constant="30" id="7AX-dv-2Su"/>
+                            <constraint firstItem="b8L-aU-Sv4" firstAttribute="centerX" secondItem="maH-z4-bjF" secondAttribute="centerX" id="7k5-Gv-wsJ"/>
+                            <constraint firstItem="b8L-aU-Sv4" firstAttribute="top" secondItem="maH-z4-bjF" secondAttribute="bottom" constant="160" id="FFW-SQ-9JQ"/>
+                            <constraint firstItem="WdJ-ay-WkV" firstAttribute="centerX" secondItem="maH-z4-bjF" secondAttribute="centerX" id="iMh-iu-sec"/>
+                            <constraint firstItem="maH-z4-bjF" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="len-jD-alK"/>
+                            <constraint firstItem="maH-z4-bjF" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="56" id="zmT-K3-S7T"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="button1" destination="maH-z4-bjF" id="anD-KV-sl1"/>
+                        <outlet property="button2" destination="WdJ-ay-WkV" id="W7p-lI-7Jt"/>
+                        <outlet property="button3" destination="b8L-aU-Sv4" id="a0Q-jt-HY6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="20" y="89"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="us" width="200" height="100"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
