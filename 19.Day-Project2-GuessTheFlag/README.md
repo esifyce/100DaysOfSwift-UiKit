@@ -1,5 +1,1 @@
-# README
-
-Lots of people email me, tweet me, or file issues on GitHub saying that this directory contains project 1 rather than project 3. If you're considering doing this, please stop and read the book: project 3 is a technique project that adjusts project 1.
-
-So: everything is correct; please do not email me about this.
+<img width="344" alt="three" src="https://user-images.githubusercontent.com/49156359/138318081-37002542-d0e5-43b2-a119-fb417d7e48ee.png">
