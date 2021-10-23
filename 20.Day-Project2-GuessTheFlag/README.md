@@ -1,5 +1,2 @@
-# README
-
-Lots of people email me, tweet me, or file issues on GitHub saying that this directory contains project 7 rather than project 9. If you're considering doing this, please stop and read the book: project 9 is a technique project that adjusts project 7.
-
-So: everything is correct; please do not email me about this.
+<img width="344" alt="one" src="https://user-images.githubusercontent.com/49156359/138561069-69c83d79-443b-417e-b0aa-1c864a2b5197.png">
+<img width="344" alt="two" src="https://user-images.githubusercontent.com/49156359/138561075-f262a2da-f97d-4dd1-a9c2-d78529ab6329.png">
