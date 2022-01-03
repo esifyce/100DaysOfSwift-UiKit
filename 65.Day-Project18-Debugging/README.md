@@ -1,2 +1,1 @@
-<img width="344" alt="one" src="https://user-images.githubusercontent.com/49156359/138318197-0d5c7efb-1bb0-403b-8f0d-e333ce3201f2.png">
-<img width="344" alt="two" src="https://user-images.githubusercontent.com/49156359/138318217-9c101d18-005f-4046-8025-032751b2cd24.png">
+<img width="864" alt="Снимок экрана 2022-01-03 в 23 47 35" src="https://user-images.githubusercontent.com/49156359/147963224-c51905a3-81c4-4d0e-a9d0-c439ff0dbd0c.png">
