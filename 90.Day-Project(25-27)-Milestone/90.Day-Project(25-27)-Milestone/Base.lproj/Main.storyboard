@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="ipad10_9rounded" orientation="portrait" layout="fullscreen" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="_0_Day_Project_25_27__Milestone" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="820" height="1180"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="pGc-tc-yWD">
+                                <rect key="frame" x="0.0" y="0.0" width="820" height="1180"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="107" translatesAutoresizingMaskIntoConstraints="NO" id="W2f-RZ-iK6">
+                                <rect key="frame" x="123" y="1130" width="574" height="30"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eFe-TO-Uw0">
+                                        <rect key="frame" x="0.0" y="0.0" width="120" height="30"/>
+                                        <color key="backgroundColor" red="0.3316258192" green="0.4255281091" blue="0.96867769960000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="IV1-hC-1mV"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="120" id="hdp-rO-0EN"/>
+                                        </constraints>
+                                        <state key="normal" title="Import Picture">
+                                            <color key="titleColor" red="1" green="1" blue="0.99999994039999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="importPhoto:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BkD-QQ-CZH"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="klb-od-Fbc">
+                                        <rect key="frame" x="227" y="0.0" width="120" height="30"/>
+                                        <color key="backgroundColor" red="0.3316258192" green="0.4255281091" blue="0.96867769960000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="0S3-12-hgl"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="120" id="Rkm-x5-eLs"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <state key="normal" title="Set Top Text">
+                                            <color key="titleColor" red="1" green="1" blue="0.99999994039999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="setTopText:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BC7-Oo-JMF"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fgc-VQ-7s4">
+                                        <rect key="frame" x="454" y="0.0" width="120" height="30"/>
+                                        <color key="backgroundColor" red="0.3316258192" green="0.4255281091" blue="0.96867769960000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="0Nj-XN-r2K"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="120" id="o1L-eG-386"/>
+                                        </constraints>
+                                        <state key="normal" title="Set Bottom Text">
+                                            <color key="titleColor" red="1" green="1" blue="0.99999994039999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="setBottomText:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Za7-5W-8kh"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="pGc-tc-yWD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="6lj-RK-o0W"/>
+                            <constraint firstItem="W2f-RZ-iK6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="AQh-GI-DxX"/>
+                            <constraint firstItem="W2f-RZ-iK6" firstAttribute="bottom" secondItem="8bC-Xf-vdC" secondAttribute="bottom" constant="-20" id="QCV-Q4-BHC"/>
+                            <constraint firstAttribute="bottom" secondItem="pGc-tc-yWD" secondAttribute="bottom" id="d53-pH-0Ny"/>
+                            <constraint firstItem="pGc-tc-yWD" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="gh7-au-uds"/>
+                            <constraint firstItem="pGc-tc-yWD" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="myY-aT-rY3"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="dyk-kD-eDI"/>
+                    <connections>
+                        <outlet property="imageView" destination="pGc-tc-yWD" id="ECb-Ae-dMm"/>
+                        <outlet property="setBottomButton" destination="Fgc-VQ-7s4" id="6tt-G2-Rf4"/>
+                        <outlet property="setImportButton" destination="eFe-TO-Uw0" id="n8j-3n-6SJ"/>
+                        <outlet property="setTopButton" destination="klb-od-Fbc" id="y0P-1l-BPr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="774.8780487804878" y="87.966101694915253"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
