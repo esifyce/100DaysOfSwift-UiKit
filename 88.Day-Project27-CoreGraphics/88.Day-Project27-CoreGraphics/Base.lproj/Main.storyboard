@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="_8_Day_Project27_CoreGraphics" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="3vS-y4-9Zz">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R5g-Ml-ujc">
+                                <rect key="frame" x="177" y="822" width="60" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="60" id="6Qe-xI-Jw9"/>
+                                    <constraint firstAttribute="height" constant="40" id="ipu-vR-mRV"/>
+                                </constraints>
+                                <state key="normal" title="Redraw"/>
+                                <connections>
+                                    <action selector="redrawTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xiO-6Q-uSb"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="3vS-y4-9Zz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="1Hw-z6-Sl7"/>
+                            <constraint firstItem="3vS-y4-9Zz" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="6Ni-am-jkr"/>
+                            <constraint firstItem="R5g-Ml-ujc" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="GbW-Su-6PR"/>
+                            <constraint firstAttribute="bottom" secondItem="3vS-y4-9Zz" secondAttribute="bottom" id="flL-PP-Uob"/>
+                            <constraint firstItem="3vS-y4-9Zz" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="ooc-DV-894"/>
+                            <constraint firstItem="R5g-Ml-ujc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="p4N-jA-wgQ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="3vS-y4-9Zz" id="Gvu-6J-B33"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="88.392857142857139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
